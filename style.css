@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400, 500, 700;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+}
+
+.image1 {
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.parentContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 0.25%;
+  left: 41%;
+}
