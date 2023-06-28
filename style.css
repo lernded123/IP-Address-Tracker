@@ -12,11 +12,13 @@ p {
 h1 {
   color: white;
   position: absolute;
-  font-size: 25px;
+  font-size: 28px;
+  font-weight: 400;
 }
 
-.image1 {
+/***.image1 {
 }
+****/
 
 body {
   padding: 0;
@@ -38,6 +40,21 @@ img {
 
 .centered {
   position: absolute;
-  top: 0.25%;
+  top: 1%;
   left: 41%;
+}
+
+@media (min-width: 380px) {
+}
+/**** Container *****/
+
+.form-container {
+  position: relative;
+  text-align: center;
+}
+
+.form {
+  position: absolute;
+  top: 355px;
+  left: 575px;
 }
