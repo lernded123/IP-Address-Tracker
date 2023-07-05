@@ -10,32 +10,46 @@ p {
 }
 
 h1 {
-  color: white;
+  color: black;
   position: absolute;
   font-size: 28px;
   font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parentContainer {
+  width: 100%;
+  padding: 5%;
+  background-position: center;
+}
+
+.imageOne {
+  max-width: 100%;
+  height: auto;
+  display: flex;
 }
 
 /***.image1 {
 }
 ****/
 
-body {
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-}
-
-img {
-  display: block;
+/*img {
   max-width: 100%;
   height: auto;
+  position: absolute;
+  display: flex;
 }
 
 .parentContainer {
   position: relative;
   text-align: center;
   color: white;
+  display: flex;
 }
 
 .centered {
@@ -47,14 +61,20 @@ img {
 @media (min-width: 380px) {
 }
 /**** Container *****/
-
+/*
 .form-container {
-  position: relative;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column-reverse;
 }
 
-.form {
-  position: absolute;
-  top: 355px;
-  left: 575px;
+.input {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  box-sizing: border-box;
 }
+
+*/
