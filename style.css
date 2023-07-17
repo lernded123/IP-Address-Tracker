@@ -22,16 +22,22 @@ h1 {
   box-sizing: border-box;
 }
 
-.parentContainer {
-  width: 100%;
-  padding: 5%;
-  background-position: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.imageOne {
-  max-width: 100%;
-  height: auto;
+.content {
+  position: relative;
+}
+
+.searchBar {
+  border: 2px solid red;
   display: flex;
+}
+
+.searchBarInput {
 }
 
 /***.image1 {
