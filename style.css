@@ -28,8 +28,9 @@ body {
   align-items: center;
 }
 
-.content {
+.container {
   position: relative;
+  display: grid;
 }
 
 .searchBar {
